@@ -43,3 +43,5 @@ git push origin ventas
 git add clientes.txt
 git commit -m "Actualizar ciudad de Maria a Bogota D.C."
 git push origin main
+git log --oneline --graph --decorate
+git branch -a
