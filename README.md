@@ -18,3 +18,6 @@ git remote add origin https://github.com/tu_usuario/sistema-clientes.git
 
 # Subir cambios
 git push -u origin main
+git add clientes.txt inventario.txt
+git commit -m "Agregar información inicial de clientes e inventario"
+git push origin main
