@@ -21,3 +21,17 @@ git push -u origin main
 git add clientes.txt inventario.txt
 git commit -m "Agregar información inicial de clientes e inventario"
 git push origin main
+
+# Crear y cambiar a la rama
+git checkout -b ventas
+
+# Editar ventas.txt
+echo "VentaID | Cliente | Producto
+1 | Maria | Laptop" > ventas.txt
+
+# Commit en la rama
+git add ventas.txt
+git commit -m "Registrar primera venta"
+
+# Subir rama a GitHub
+git push origin ventas
