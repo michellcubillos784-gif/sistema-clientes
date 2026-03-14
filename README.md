@@ -29,6 +29,10 @@ git checkout -b ventas
 echo "VentaID | Cliente | Producto
 1 | Maria | Laptop" > ventas.txt
 
+git checkout main
+git merge ventas
+git push origin main
+
 # Commit en la rama
 git add ventas.txt
 git commit -m "Registrar primera venta"
