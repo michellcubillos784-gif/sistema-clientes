@@ -39,3 +39,7 @@ git commit -m "Registrar primera venta"
 
 # Subir rama a GitHub
 git push origin ventas
+
+git add clientes.txt
+git commit -m "Actualizar ciudad de Maria a Bogota D.C."
+git push origin main
